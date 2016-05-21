@@ -1,6 +1,6 @@
 {
   "name": "402",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "402 payments",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "http-error": "0.0.6",
     "sequelize": "^3.23.2",
     "vhost": "^3.0.2",
-    "webcredits": "^0.1.8",
+    "webcredits": "^0.1.10",
     "webid": "^0.3.7"
   }
 }

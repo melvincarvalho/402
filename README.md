@@ -39,6 +39,17 @@ $ openssl genrsa 2048 > ../localhost.key
 $ openssl req -new -x509 -nodes -sha256 -days 3650 -key ../localhost.key -subj '/CN=*.localhost' > ../localhost.cert
 ```
 
+## Faucet
+
+Using [webcredits](https://webcredits.org/) it is possible to set up a faucet using
+
+    credit create
+
+    credit genesis
+
+    credit insert https://w3id.org/cc#coinbase 50000 '' https://w3id.org/cc#faucet
+
+
 ## Demo
 
-[Demo](https://webcredits.org/demos/402/)
+[Demo](https://webcredits.org:3000/)
