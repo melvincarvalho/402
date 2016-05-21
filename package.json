@@ -1,6 +1,6 @@
 {
   "name": "402",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "402 payments",
   "main": "index.js",
   "scripts": {
